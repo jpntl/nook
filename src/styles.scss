@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Quicksand&display=swap');
+
+body {
+    background-color: #333; /* Dark grey background */
+    color: #fff; /* White text */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    padding: 2% 5% 2% 5%;
+  }
+  
+  .green {
+    color: #55ff55; /* Green color for the prompt */
+  }
+  
+  /* Optional: Add a blinking cursor animation */
+  .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background-color: #fff;
+    animation: blink 1s infinite;
+    margin-left: 0.5%;
+    position: relative;
+    top: 4px;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .nook {
+    color: #ffffff;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 37px;
+    opacity: 40%;
+    animation: blink 6s infinite;
+  }
+  

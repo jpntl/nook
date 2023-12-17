@@ -1,0 +1,14 @@
+<!-- Your Angular Component Template -->
+<div class="outer-container">
+    <div class="inner-container">
+      <!-- Your component content goes here -->
+      <p>User information</p>
+      <div class="green" *ngIf="showUserInfo">
+        <p>id: {{ user.id }}</p>
+        <p>name: {{ user.name }}</p>
+        <p>email: {{ user.email }}</p>
+        <p>active: {{ user.activeStatus }}</p>
+        <p>admin: {{ user.admin }}</p>
+      </div>
+    </div>
+  </div>

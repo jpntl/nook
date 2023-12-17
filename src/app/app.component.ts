@@ -11,5 +11,5 @@ import { BaseComponent } from './components/base/base.component';
   styles: [],
 })
 export class AppComponent {
-  title = 'nook';
+
 }
